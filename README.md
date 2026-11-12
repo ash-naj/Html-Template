@@ -2,9 +2,12 @@
 
 A clean, zero-dependency landing page template built from scratch with semantic HTML5 and vanilla CSS3. Designed as a reusable starting skeleton for static websites and GitHub Pages deployments.
 
+Desktop View :
 <div align="center">
   <img src="./images/preview.png" width="700" alt="template Preview" />
 </div>
+
+Mobile Phone View :
 <div align="center">
   <img src="./images/phone-preview.jpg" width="700" alt="template Phone Preview" />
 </div>

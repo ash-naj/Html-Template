@@ -65,6 +65,7 @@ body {
     margin-bottom: 10px;
     color: var(--footer);
     font-weight: bold;
+    transition: background-color 0.2s ease;
 }
 .left-hero {
     color: var(--text);
@@ -93,12 +94,37 @@ body {
     padding : 30px 20px;
 }
 
+.carousel{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.prev-btn, .next-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--header-signup);
+    color: var(--text);
+    font-size: 18px;
+    font-weight: bold;
+    flex-shrink: 0;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+.prev-btn:hover, .next-btn:hover{
+    background-color: var(--footer);
+}
 .info-card li{
     display : flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    flex: 1;
+    flex: 0 0 220px;
 }
 .info-card {
     display: flex;
@@ -106,8 +132,15 @@ body {
     list-style: none;
     padding:0;
     margin:0;
-    justify-content: center;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scroll-behavior: smooth;
     gap : 15px;
+    flex: 1;
+    scrollbar-width: none;
+}
+.info-card::-webkit-scrollbar {
+    display: none;
 }
 .info-card p {
     font-size: 0.8rem;
@@ -211,8 +244,29 @@ body {
         align-self: center;
     }
     .info-container{
-        flex-direction: column;
-        gap: 24px;
+        padding: 24px 10px;
+    }
+    .info-card img{
+        width : 100%;
+        max-width: 150px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border : 4px solid var(--header-signup);
+        border-radius: 30px;
+    }
+    .info-card li{
+        flex: 0 0 160px;
+    }
+    .info-card{
+        gap: 8px;
+    }
+    .next-btn, .prev-btn{
+        width: 24px;
+        height: 24px;
+        font-size: 14px;
+    }
+    .carousel{
+        gap: 6px;
     }
     .signup {
         padding: 30px 30px;
@@ -223,4 +277,10 @@ body {
         padding: 24px 30px;
         gap: 20px;
     }
+}
+
+.hero-btn.disabled {
+    background-color: gray;
+    cursor: not-allowed;
+    color: var(--text);
 }
