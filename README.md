@@ -5,6 +5,9 @@ A clean, zero-dependency landing page template built from scratch with semantic 
 <div align="center">
   <img src="./images/preview.png" width="700" alt="template Preview" />
 </div>
+<div align="center">
+  <img src="./images/phone-preview.png" width="700" alt="template Phone Preview" />
+</div>
 
 🔗 **Live Preview:** [https://ash-naj.github.io/Html-Template/](https://ash-naj.github.io/Html-Template/)
 
