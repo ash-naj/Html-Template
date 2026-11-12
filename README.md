@@ -3,10 +3,10 @@
 A clean, zero-dependency landing page template built from scratch with semantic HTML5 and vanilla CSS3. Designed as a reusable starting skeleton for static websites and GitHub Pages deployments.
 
 <div align="center">
-  <img src="./Images/preview.png" width="700" alt="template Preview" />
+  <img src="./images/preview.png" width="700" alt="template Preview" />
 </div>
 
-🔗 **Live Preview:** `https://<your-username>.github.io/<your-repo>/`
+🔗 **Live Preview:** `https://ash-naj.github.io/Html-Template/`
 
 ---
 
