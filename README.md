@@ -6,7 +6,7 @@ A clean, zero-dependency landing page template built from scratch with semantic 
   <img src="./images/preview.png" width="700" alt="template Preview" />
 </div>
 
-🔗 **Live Preview:** `https://ash-naj.github.io/Html-Template/`
+🔗 **Live Preview:** [https://ash-naj.github.io/Html-Template/](https://ash-naj.github.io/Html-Template/)
 
 ---
 
